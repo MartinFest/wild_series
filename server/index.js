@@ -10,7 +10,7 @@ require("./database/client").checkConnection();
 const app = require("./app/config");
 
 const sayWelcome = (req, res) => {
-  res.send("Welcome to Wild Series !!");
+  res.send("Welcome to Wild Series !");
 };
 
 app.get("/", sayWelcome);
